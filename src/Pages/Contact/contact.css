@@ -1,23 +1,25 @@
-*{
-    margin: 0; padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.contact{
-    padding: 6rem 2rem;
-    background: #111;
-    display: flex;
-    align-items: center;
-    gap: 4rem;
+.contact {
+  padding: 6rem 2rem;
+  background: #111;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  color: #fff;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 600px;
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 600px;
+  text-align: start;
 }
 
-
-.contact-details{
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 400px;
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 400px;
 }
