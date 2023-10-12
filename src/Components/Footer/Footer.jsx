@@ -10,7 +10,7 @@ const Footer = () => {
       <ScrollToTop
         smooth
         top="21"
-        style={{ background: "#b6fb41", fontWeight: "bolder" }}
+        style={{ background: "#b7fb41c4", fontWeight: "bolder" }}
       />
       <div className="copy-write">
         <img src={FooterIMG} alt="Logo" />
