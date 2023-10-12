@@ -3,9 +3,10 @@ import './home.css'
 import Navbar from '../../Components/Navbar/Navbar'
 // import Record from '../../Components/Record/Record'
 import Footer from '../../Components/Footer/Footer'
-import HService from '../../Components/ServicesHome/HService'
+import HService from '../../Components/ServicesHome/HomeService'
 
 const Home = () => {
+
   return (
     <>
       <Navbar />

@@ -15,6 +15,7 @@ function App() {
       SetLoading(false);
     }, 3000);
   }, []);
+
   return (
     <div className="App">
       {loading ? (
