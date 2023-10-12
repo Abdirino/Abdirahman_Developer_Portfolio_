@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.About{
+  background: #111
+}
+.about {
+  padding: 5rem 2.1rem;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  /* border-bottom: 2px solid grey; */
+}
+.a-image {
+  display: flex;
+  flex: 1 1 400px;
+  overflow: hidden;
+  border-radius: 2px;
+  /* clip-path: circle(50%); */
+}
+.a-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.a-detail {
+  display: flex;
+  flex: 1 1 400px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.4rem;
+  text-align: start;
+}
+.a-detail h3 {
+  color: #b6fb41;
+  font-size: 14px;
+  font-weight: lighter;
+  /* padding: 0.6rem 0; */
+}
+.a-detail h1 {
+  color: #b6fb41;
+  font-size: 42px;
+  font-weight: lighter;
+}
+.a-detail h2 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.a-detail p {
+  color: grey;
+  font-size: 21px;
+}
+.a-detail .button {
+  margin: 0 !important;
+}
+
+.line{
+  width: 100%; height: 2px;
+  background: grey;
+}
+
+.exp {
+  display: flex;
+  background: #111;
+  padding: 3rem 1rem;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.education,
+.experience {
+  display: flex;
+  flex: 1 1 400px;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  gap: 1.7rem;
+  color: white;
+  text-align: start;
+}
+.experience {
+  border-right: 2px solid rgba(128, 128, 128, 0.5);
+}
+.education h1,
+.experience h1 {
+  padding: 2rem 8rem;
+  margin: 2rem;
+  font-size: 35px;
+  box-shadow: 0 0 4px rgba(183, 251, 65, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.ex-detail {
+  margin: 0 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: start;
+  gap: 1.1rem;
+}
+.ex-detail p {
+  color: grey;
+}
+.ex-detail h2 {
+  font-size: 40px;
+  color: #b6fb41;
+}
+.ex-detail h3 {
+  color: grey;
+}
+
+@media (max-width: 1168px) {
+  .about {
+    flex-wrap: wrap;
+  }
+  .exp {
+    flex-wrap: wrap;
+  }
+  .experience {
+    border: none;
+  }
+}
+
+@media (max-width: 568px) {
+  .education h1,
+  .experience h1 {
+    padding: 1rem 3rem;
+    margin: 1rem;
+    font-size: 25px;
+  }
+  .ex-detail h2 {
+    font-size: 30px;
+  }
+  .a-detail h1 {
+    color: #b6fb41;
+    font-size: 32px;
+    font-weight: lighter;
+  }
+  .a-detail h2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+  .a-detail p {
+    color: grey;
+    font-size: 15px;
+  }
+  .ex-detail {
+    margin: 0 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: start;
+    gap: 1.1rem;
+  }
+}
+
+@media(min-width:1890px) {
+  .About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about, .exp{
+    max-width: 69%;
+  }
+}

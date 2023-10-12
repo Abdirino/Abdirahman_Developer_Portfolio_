@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: 25vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.425)),
+    url(../../Assets/Images/bg_generator.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width:867px) {
+  .background{
+    height: 21vh;
+  }
+}

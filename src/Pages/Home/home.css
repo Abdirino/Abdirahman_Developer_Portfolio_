@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.Home{
+  background: #111;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid grey;
+}
+
+@media(min-width: 1890px){
+  .Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home{
+    max-width:69%;
+  }
+}
+
+.h-detail {
+  text-align: start;
+  display: flex;
+  flex: 1 1 600px;
+  flex-direction: column;
+  padding: 1rem;
+}
+.h-detail h1 {
+  font-size: 62px;
+  color: #d6fb41;
+}
+.h-detail p {
+  color: white;
+  font-size: 25px;
+  padding: 1.4rem 0;
+}
+.h-detail .button {
+  width: fit-content !important;
+  margin: 1rem 0;
+}
+
+.h-links {
+  display: flex;
+  flex: 1 1 400px;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative !important;
+  right: 0;
+}
+
+.proj-link {
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+  color: white;
+  text-align: start;
+  gap: 1rem;
+}
+.proj-link h1 {
+  font-size: 25px;
+}
+.proj-link h1 span {
+  color: #b6fb41;
+  cursor: pointer;
+}
+.proj-link h1 span:hover {
+  text-decoration: underline;
+}
+.proj-link h2 {
+  color: rgb(155, 155, 155);
+  font-size: 18px;
+}
+
+.h-social {
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+  color: white;
+  text-align: start;
+  gap: 1rem;
+}
+.h-social h1 {
+  font-size: 25px;
+}
+.h-social h2 {
+  color: rgb(155, 155, 155);
+  font-size: 18px;
+}
+.social {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1.1rem;
+}
+.social i {
+  font-size: 35px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.social a{
+  color: inherit; text-decoration: inherit;
+}
+.social a i:hover {
+  transform: scale(1.08);
+}
+.social a i:nth-child(1):hover {
+  color: inherit;
+}
+.social a i:nth-child(2):hover {
+  color: #0a66c2;
+}
+.social i:nth-child(3):hover {
+  color: #3b5998;
+}
+.social i:nth-child(4):hover {
+  color: #6e5494;
+}
+
+@media (max-width: 1170px) {
+  .home {
+    flex-wrap: wrap;
+    padding: 8rem 1rem 1rem 1rem;
+  }
+  .h-detail h1 {
+    font-size: 48px;
+  }
+  .h-detail p {
+    font-size: 25px;
+  }
+  .h-detail, .h-detail, .h-social {
+    padding: 1rem;
+  }
+  .proj-link h1, .h-social h1 {
+    font-size: 25px;
+  }
+  .h-social h2, .proj-link h2 {
+    font-size: 18px;
+  }
+  .social i {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 567px) {
+  .h-detail {
+    padding: 0rem;
+  }
+  .h-detail h1 {
+    font-size: 38px;
+  }
+  .h-detail p {
+    font-size: 21px;
+  }
+  .home {
+    height: auto;
+  }
+  .social{
+    gap: 1rem;
+  }
+}

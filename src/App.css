@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap");
+
+.App {
+  text-align: center;
+  transition: 0.4s ease-in-out;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+.App h1, h2, h3, h4, span, li, ul {
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 2px;
+}
+.App p {
+  font-family: "Geologica", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Scrollbar css */
+::-webkit-scrollbar{
+  width: 11px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgba(162, 222, 59, 0.9);
+  border-radius: 1px;
+}
+::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0.943);
+}
+/* Scrollbar css */
+
+/* Button CSS */
+.button {
+  font-family: "ZCOOL QingKe HuangYou", sans-serif;
+  letter-spacing: 1px;
+  min-height: 45px;
+  min-width: 110px;
+  padding: 0.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  /* align-items: center; */
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: relative;
+  cursor: pointer;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(-12.74%, rgba(110, 239, 255, 0.5)),
+    color-stop(56.76%, rgba(106, 224, 255, 0.271))
+  );
+  background: #d6fb41;
+  border: 2px solid #4a680a;
+  color: #000000;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 968px) {
+  .button {
+    min-height: 40px;
+    min-width: 140px;
+    font-size: 21px;
+    border: 1px solid #4a680a;
+    gap: 0.6rem;
+  }
+}
+
+.button:before {
+  content: "";
+  width: 4px;
+  height: 28px;
+  background: #19173b;
+  border: 2px solid #435303;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  bottom: -7px;
+  left: 4px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  bottom: -2px;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ffffff;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #677e08 -12.74%, #677e08 56.76%);
+  color: rgb(255, 255, 255);
+  gap: 1.7rem;
+  /* flex-direction: row-reverse; */
+}
+/* Button CSS*/
+
+.nav-links {
+  color: inherit !important;
+  text-decoration: inherit;
+}
+
+/* TEXT ANIMATION */
+
+.text {
+  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.text2 {
+  -webkit-animation: focus-in-expand 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: focus-in-expand 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* TEXT ANIMATION */
+
+
+@media(min-width: 1890px){
+  .button{
+    padding: 1rem;
+    font-size: 25px;
+  }
+}
+@media(max-width: 560px){
+  .button{
+    padding: 0.4rem;
+    font-size: 17px;
+  }
+}
