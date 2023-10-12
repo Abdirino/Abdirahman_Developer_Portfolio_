@@ -9,7 +9,7 @@
 .Navbar {
   padding: 0.4rem 1rem;
   background: #111;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
   color: white;
   position: fixed;
   top: 0;

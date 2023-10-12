@@ -6,6 +6,7 @@ import About from "./Pages/About/About";
 import Services from "./Pages/Services/Services";
 import { useEffect, useState } from "react";
 import Loader from "./Components/Loader/Loader";
+import Contact from "./Pages/Contact/Contact";
 
 function App() {
   const [loading, SetLoading] = useState(false);
@@ -26,6 +27,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />}/>
           </Routes>
         </BrowserRouter>
       )}
