@@ -13,42 +13,6 @@
   color: white;
   border-bottom: 1px solid grey;
 }
-.num,
-.email,
-.f-socials {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-.f-socials i, .email i, .num i {
-  font-size: 45px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-.num p, .email p{
-    font-size: 21px;
-    margin: 0 10px;
-}
-.f-socials a {
-  color: inherit;
-  text-decoration: inherit;
-}
-.f-socials a i:hover {
-  transform: scale(1.08);
-}
-.f-socials a i:nth-child(1):hover {
-  color: inherit;
-}
-.f-socials a i:nth-child(2):hover {
-  color: #0a66c2;
-}
-.f-socials i:nth-child(3):hover {
-  color: #3b5998;
-}
-.f-socials i:nth-child(4):hover {
-  color: #6e5494;
-}
 
 .copy-write{
     background: #111;
@@ -59,6 +23,9 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+}
+.copy-write .social{
+  color: white;
 }
 .copy-write p{
     color: grey;
