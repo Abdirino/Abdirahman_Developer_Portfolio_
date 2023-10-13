@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hservice.css";
+import Skills from "../Skills/Skills";
 
 const HService = () => {
   return (
@@ -43,6 +44,7 @@ const HService = () => {
           </div>
         </div>
       </div>
+      <Skills />
     </>
   );
 };
