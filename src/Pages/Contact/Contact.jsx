@@ -21,16 +21,17 @@ const Contact = () => {
             </p>
             <form action="">
               <div className="row">
-                <input type="text" className="margin" placeholder="Name *" />
-                <input type="email" placeholder="E-Mail *" />
+                <input type="text" className="margin" required placeholder="Name *" />
+                <input type="email" required placeholder="E-Mail *" />
               </div>
-              <input type="text" placeholder="Subject *" />
+              <input type="text" required placeholder="Subject *" />
               <textarea
                 name=""
                 id=""
                 cols="30"
                 rows="10"
-                placeholder="Your Message"
+                required
+                placeholder="Your Message *"
               ></textarea>
               <button className="button">
                 <span>SEND MESSAGE</span>
@@ -46,7 +47,7 @@ const Contact = () => {
               <i class="fa-solid fa-envelope"></i>
               <div className="det">
                 <h2>E-Mail</h2>
-                <p>abdirinohash@gmail.com</p>
+                <p>abdirinoahash@gmail.com</p>
               </div>
             </div>
             <div className="phone">

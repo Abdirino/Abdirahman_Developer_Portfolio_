@@ -50,6 +50,8 @@ textarea {
   color: rgb(0, 0, 0);
   background: #ffffff;
   font-size: 17px;
+  outline: none;
+  letter-spacing: 0.8px;
 }
 .row {
   display: flex;

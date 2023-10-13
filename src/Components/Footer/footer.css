@@ -11,42 +11,45 @@
   grid-gap: 3rem;
   align-items: start;
   color: white;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid rgba(128, 128, 128, 0.6);
 }
 
-.copy-write{
-    background: #111;
-    display: flex;
-    padding: 1rem;
-    justify-content: center;
-    gap: 8px;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+.copy-write {
+  border-top: 1px solid grey;
+  background: #111;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.copy-write .social{
+.copy-write .social {
   color: white;
 }
-.copy-write p{
-    color: grey;
+.copy-write p {
+  color: grey;
 }
-.copy-write p span{
-    color: rgb(255, 255, 255);
+.copy-write p span {
+  color: rgb(255, 255, 255);
 }
-.copy-write img{
-    width: 69px;
+.copy-write img {
+  width: 69px;
 }
 
-@media(max-width: 1167px){
-    .copy-write{
-        justify-content: center;
-    }
-    .footer{
-        flex-wrap: wrap;
-    }
-    .f-socials i, .email i, .num i {
-        font-size: 35px;
-        cursor: pointer;
-        transition: 0.3s ease;
-      }
+@media (max-width: 1167px) {
+  .copy-write {
+    justify-content: center;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .f-socials i,
+  .email i,
+  .num i {
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
 }

@@ -104,7 +104,7 @@
 
 .button:hover {
   background: linear-gradient(90deg, #677e08 -12.74%, #677e08 56.76%);
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   gap: 1.7rem;
   /* flex-direction: row-reverse; */
 }
