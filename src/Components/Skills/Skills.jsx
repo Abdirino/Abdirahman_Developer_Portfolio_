@@ -13,6 +13,7 @@ import express from "../../Assets/Images/icons8-express-js-50.png";
 import mongo from "../../Assets/Images/icons8-mongo-db-64.png";
 import git from "../../Assets/Images/icons8-git-48.png";
 import github from "../../Assets/Images/icons8-github-48.png";
+import { Link } from "react-router-dom";
 
 const Skills = () => {
   return (
@@ -27,10 +28,12 @@ const Skills = () => {
               Unlocking the potential of the digital realm through mastery of
               Front-End Development.
             </p>
-            <button className="button">
-              <span>Hire Me</span>
-              <i class="fa-solid fa-computer"></i>
-            </button>
+            <Link to="/contact">
+              <button className="button">
+                <span>HIRE ME</span>
+                <i class="fa-solid fa-computer"></i>
+              </button>
+            </Link>
           </div>
           <div className="skill-content">
             <div className="s-content">

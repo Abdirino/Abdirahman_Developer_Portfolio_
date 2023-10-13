@@ -3,9 +3,10 @@ import "./about.css";
 import Navbar from "../../Components/Navbar/Navbar";
 
 import AboutIMG from "../../Assets/Images/About.png.jpg";
-import Background from '../../Components/Background/Background'
+import Background from "../../Components/Background/Background";
 // import Record from '../../Components/Record/Record'
 import Footer from "../../Components/Footer/Footer";
+import Skills from "../../Components/Skills/Skills";
 
 const About = () => {
   return (
@@ -24,10 +25,16 @@ const About = () => {
               client needs and industry expectations, ensuring your projects are
               not only successful but also ahead of the curve.
             </p>
-            <button className="button">
-              <span>RESUME</span>
-              <i class="fa-solid fa-file"></i>
-            </button>
+            <div className="about-links">
+              <button className="button">
+                <span>RESUME</span>
+                <i class="fa-solid fa-file"></i>
+              </button>
+              <button className="button">
+                <span>VIEW PROJECTS</span>
+                <i class="fa-solid fa-diagram-project"></i>
+              </button>
+            </div>
           </div>
 
           <div className="a-image">
@@ -66,8 +73,9 @@ const About = () => {
         </div>
         <div className="line"></div>
         {/* <Record /> */}
-        <Footer />
       </div>
+      <Skills />
+      <Footer />
     </>
   );
 };

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 
 import NavIcon from "../../Assets/Images/A-Footer.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -67,7 +67,7 @@ const Navbar = () => {
               </li>
 
               <li className="nav-links">Portfolio</li>
-              
+
               <NavLink
                 exact
                 to="/contact"
@@ -81,12 +81,12 @@ const Navbar = () => {
           </div>
 
           <div className="right">
-            <button className="button">
-              <span className="animate-bounce transition-all duration-300 ease-in-out">
-                HIRE ME
-              </span>
-              <i className="fa-solid fa-angles-right"></i>
-            </button>
+            <Link to="/contact">
+              <button className="button">
+                <span>HIRE ME</span>
+                <i className="fa-solid fa-angles-right"></i>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

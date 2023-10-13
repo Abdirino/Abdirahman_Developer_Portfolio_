@@ -39,10 +39,10 @@
   text-align: start;
 }
 .a-detail h3 {
-  color: #b6fb41;
+  color: #ffffff;
   font-size: 14px;
   font-weight: lighter;
-  padding-bottom: 2.6rem;
+  padding-bottom: 1.4rem;
 }
 .a-detail h1 {
   color: #b6fb41;
@@ -57,6 +57,11 @@
 .a-detail .button {
   margin: 0 !important;
   padding: 1rem 0;
+}
+.about-links{
+  display: flex;
+  gap: 1.1rem;
+  flex-wrap: wrap;
 }
 
 .line{
