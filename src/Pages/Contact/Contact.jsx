@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <Background />
+      <Background home="Home" section="Contacts"/>
       <div className="Contacts">
         <div className="contact">
           <div className="form">

@@ -3,7 +3,7 @@ import "./about.css";
 import Navbar from "../../Components/Navbar/Navbar";
 
 import AboutIMG from "../../Assets/Images/About.png.jpg";
-// import Background from '../../Components/Background/Background'
+import Background from '../../Components/Background/Background'
 // import Record from '../../Components/Record/Record'
 import Footer from "../../Components/Footer/Footer";
 
@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      {/* <Background /> */}
+      <Background home="Home" section="About" />
       <div className="About">
         <div className="about">
           <div className="a-detail">

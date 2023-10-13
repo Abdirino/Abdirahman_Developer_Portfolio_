@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <>
         <Navbar />
-        <Background />
+        <Background home="Home" section="Services"/>
         <HService />
         <div className="services"></div>
         <Footer />

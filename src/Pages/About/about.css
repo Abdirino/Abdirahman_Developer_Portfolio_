@@ -116,7 +116,7 @@
   color: grey;
 }
 
-@media (max-width: 1168px) {
+@media (max-width: 1218px) {
   .about {
     flex-wrap: wrap;
     padding: 8rem 1.1rem 6rem 1.1rem;
@@ -141,7 +141,7 @@
   }
   .a-detail h1 {
     color: #b6fb41;
-    font-size: 32px;
+    font-size: 29px;
     font-weight: lighter;
   }
   .a-detail h2 {
