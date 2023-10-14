@@ -31,7 +31,7 @@ const About = () => {
                 <i class="fa-solid fa-file"></i>
               </button>
               <button className="button">
-                <span>VIEW PROJECTS</span>
+                <span>PORTFOLIO</span>
                 <i class="fa-solid fa-diagram-project"></i>
               </button>
             </div>
