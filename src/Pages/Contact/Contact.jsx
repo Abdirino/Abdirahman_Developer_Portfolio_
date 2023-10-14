@@ -37,6 +37,7 @@ const Contact = () => {
                 <span>SEND MESSAGE</span>
                 <i class="fa-solid fa-envelope-circle-check"></i>
               </button>
+              
             </form>
           </div>
           <div className="contact-details">

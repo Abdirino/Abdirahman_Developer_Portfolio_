@@ -6,11 +6,6 @@
   list-style: none;
 }
 
-.nav-links.active {
-  color: #b6fb41;
-  border-bottom: 4px solid #b6fb41;
-}
-
 .Navbar {
   padding: 0.4rem 1rem;
   background: #111;
@@ -99,6 +94,11 @@
   right: auto;
   left: 0;
   width: 100%;
+}
+
+.nav-links.active {
+  color: #b6fb41;
+  border-bottom: 4px solid #b6fb41;
 }
 /* .nav-links:hover::before {
   transition: transform 0.2s;
