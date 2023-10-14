@@ -19,6 +19,8 @@
 }
 .background h2{
   font-size: 21px;
+  position: relative;
+  top: 20px;
 }
 .background .bg-home, .divide{
   color: grey;
