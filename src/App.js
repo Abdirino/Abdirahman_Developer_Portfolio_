@@ -8,6 +8,7 @@ import Services from "./Pages/Services/Services";
 import Loader from "./Components/Loader/Loader";
 import Contact from "./Pages/Contact/Contact";
 import TopPage from "./TopPage";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 
 function App() {
   const [loading, SetLoading] = useState(false);
@@ -30,6 +31,7 @@ function App() {
             {loading ? <Loader /> : <Route path="/about" element={<About />} />}
             {loading ? <Loader /> : <Route path="/services" element={<Services />} />}
             {loading ? <Loader /> : <Route path="/contact" element={<Contact />} />}
+            {loading ? <Loader /> : <Route path="/portfolio" element={<Portfolio />} />}
           </Routes>
         </BrowserRouter>
       )}

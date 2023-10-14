@@ -66,7 +66,15 @@ const Navbar = () => {
                 </NavLink>
               </li>
 
-              <li className="nav-links">Portfolio</li>
+              <NavLink
+                exact
+                to="/portfolio"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Portfolio
+              </NavLink>
 
               <NavLink
                 exact

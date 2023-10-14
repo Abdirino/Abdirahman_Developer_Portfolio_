@@ -7,8 +7,15 @@
   scroll-behavior: smooth;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
-.App h1, h2, h3, h4, span, li, ul {
+.App h1,
+h2,
+h3,
+h4,
+span,
+li,
+ul {
   font-family: "Overpass", sans-serif;
   letter-spacing: 2px;
 }
@@ -18,14 +25,14 @@
 }
 
 /* Scrollbar css */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 11px;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: rgba(162, 222, 59, 0.9);
   border-radius: 1px;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.943);
 }
 /* Scrollbar css */
@@ -102,12 +109,23 @@
   border-left: 15px solid #ffffff;
 }
 
+.button i {
+  position: absolute;
+  opacity: 0;
+  right: -15px;
+}
+.button:hover i{
+  opacity: 1;
+  padding-right: 15px;
+}
+
 .button:hover {
   background: linear-gradient(90deg, #677e08 -12.74%, #677e08 56.76%);
   color: rgb(255, 255, 255) !important;
   gap: 1.7rem;
   /* flex-direction: row-reverse; */
 }
+
 /* Button CSS*/
 
 .nav-links {
@@ -157,15 +175,14 @@
 
 /* TEXT ANIMATION */
 
-
-@media(min-width: 1890px){
-  .button{
+@media (min-width: 1890px) {
+  .button {
     padding: 1rem;
     font-size: 25px;
   }
 }
-@media(max-width: 560px){
-  .button{
+@media (max-width: 560px) {
+  .button {
     padding: 0.4rem;
     font-size: 17px;
   }
