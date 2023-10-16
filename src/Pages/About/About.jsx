@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="ex-detail">
               <p>|| 2023 - Present</p>
-              <h2>Freelance Frull-Stack Developer</h2>
+              <h2>Freelance Full-Stack Developer</h2>
               <h3>Upwork Inc.</h3>
             </div>
           </div>

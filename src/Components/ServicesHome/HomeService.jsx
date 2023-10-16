@@ -7,14 +7,14 @@ const HService = () => {
     <>
       <div className="h-Services">
         <h4>|| My Services 🧑‍💻</h4>
-        <h1>Turning vision into web reality with expert Front-End finesse.</h1>
+        <h1>Transforming Vision into Web Reality with Unparalleled Full-Stack Expertise.</h1>
         <div className="h-services">
           <div className="h-service">
             <i class="fa-solid fa-layer-group"></i>
             <h2>UI/UX Design</h2>
             <ul>
               <li>Wireframing</li>
-              <li>Web Accessibility</li>
+              <li>Figma Design</li>
               <li>Responsive Design</li>
               <li>User Research</li>
               <li>Colors and Typography</li>
