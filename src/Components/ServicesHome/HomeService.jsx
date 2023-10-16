@@ -22,24 +22,22 @@ const HService = () => {
           </div>
           <div className="h-service">
             <i class="fa-solid fa-code"></i>
-            <h2>Development</h2>
+            <h2>Front-End Development</h2>
             <ul>
               <li>HTML & CSS</li>
               <li>JavaScript</li>
-              <li>React.js</li>
               <li>Next.js</li>
               <li>Git & GitHub</li>
             </ul>
           </div>
           <div className="h-service">
-            <i class="fa-brands fa-searchengin"></i>
-            <h2>SEO Marketing</h2>
+            <i class="fa-solid fa-database"></i>
+            <h2>Back-End Development</h2>
             <ul>
-              <li>E-Commerce SEO</li>
-              <li>Technical SEO</li>
-              <li>Keyword Research</li>
-              <li>International SEO</li>
-              <li>SEO for social media</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>Firebase</li>
             </ul>
           </div>
         </div>

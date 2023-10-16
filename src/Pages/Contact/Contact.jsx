@@ -48,7 +48,7 @@ const Contact = () => {
               <i class="fa-solid fa-envelope"></i>
               <div className="det">
                 <h2>E-Mail</h2>
-                <p>abdirinoahash@gmail.com</p>
+                <p>abdirahman2887@gmail.com</p>
               </div>
             </div>
             <div className="phone">

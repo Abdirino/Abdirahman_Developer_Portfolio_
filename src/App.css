@@ -122,7 +122,7 @@ ul {
   background: linear-gradient(90deg, #677e08 -12.74%, #677e08 56.76%);
   color: rgb(255, 255, 255) !important;
   transition: all 0.4s ease;
-  /* gap: 14px; */
+  gap: 11px;
   /* flex-direction: row-reverse; */
 }
 

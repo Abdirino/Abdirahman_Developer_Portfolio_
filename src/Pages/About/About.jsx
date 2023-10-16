@@ -17,9 +17,9 @@ const About = () => {
         <div className="about">
           <div className="a-detail">
             <h3>|| About Me</h3>
-            <h1 className="text">I'm a highly skilled Front-End</h1>
-            <h1 className="text"> Developer with over 2 years</h1>
-            <h1 className="text"> of professional experience.</h1>
+            <h1 className="text">I'm a highly skilled Full-Stack</h1>
+            <h1 className="text">Developer with over 2 years</h1>
+            <h1 className="text">of professional experience.</h1>
             <p>
               My goal is to deliver exceptional experiences that meet both
               client needs and industry expectations, ensuring your projects are
@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="ex-detail">
               <p>|| 2023 - Present</p>
-              <h2>Freelance Front-End Developer</h2>
+              <h2>Freelance Frull-Stack Developer</h2>
               <h3>Upwork Inc.</h3>
             </div>
           </div>

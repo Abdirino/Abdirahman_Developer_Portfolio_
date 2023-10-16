@@ -13,6 +13,7 @@ import express from "../../Assets/Images/icons8-express-js-50.png";
 import mongo from "../../Assets/Images/icons8-mongo-db-64.png";
 import git from "../../Assets/Images/icons8-git-48.png";
 import github from "../../Assets/Images/icons8-github-48.png";
+import vite from "../../Assets/Images/icons8-vite-48.png";
 import { Link } from "react-router-dom";
 
 const Skills = () => {
@@ -22,11 +23,11 @@ const Skills = () => {
         <div className="skills">
           <div className="skill-detail">
             <h2>|| My Skills</h2>
-            <h1 className="text">Elevating Front-End</h1>
+            <h1 className="text">Elevating Full-Stack</h1>
             <h1 className="text">Development Skills.</h1>
             <p>
               Unlocking the potential of the digital realm through mastery of
-              Front-End Development.
+              Full-Stack Development.
             </p>
             <Link to="/contact">
               <button className="button">
@@ -47,6 +48,7 @@ const Skills = () => {
               <img src={typeScript} alt="" />
               <img src={jest} alt="" />
               <img src={figma} alt="" />
+              <img src={vite} alt="" />
               <i class="fa-brands fa-react" style={{ color: "#00e1ff" }}></i>
               <img src={redux} alt="" />
               <img src={framer} alt="" />
