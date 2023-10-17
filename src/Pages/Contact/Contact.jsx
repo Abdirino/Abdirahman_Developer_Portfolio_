@@ -1,5 +1,7 @@
 import React from "react";
 import "./contact.css";
+import { useForm } from "react-hook-form";
+import { DevTool } from "@hookform/devtools";
 import Navbar from "../../Components/Navbar/Navbar";
 import Background from "../../Components/Background/Background";
 
@@ -7,10 +9,17 @@ import myImage from "../../Assets/Images/abdirino-pro.jpg";
 import Footer from "../../Components/Footer/Footer";
 
 const Contact = () => {
+  const form = useForm();
+  const { register, control, handleSubmit } = form;
+  // const {name, ref, onChange, onBlur} = register("name")
+
+  const onSubmit = (data) => {
+    console.log("Form Submitted", data);
+  };
   return (
     <>
       <Navbar />
-      <Background home="Home" section="Contacts"/>
+      <Background home="Home" section="Contacts" />
       <div className="Contacts">
         <div className="contact">
           <div className="form">
@@ -19,15 +28,40 @@ const Contact = () => {
               Your perspective matters 💌, and I'm truly interested in what you
               have to say.
             </p>
-            <form action="">
+            <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
               <div className="row">
-                <input type="text" className="margin" required placeholder="Name *" />
-                <input type="email" required placeholder="E-Mail *" />
+                <label htmlFor="name"></label>
+                <input
+                  type="text"
+                  id="name"
+                  {...register("name")}
+                  className="margin"
+                  required
+                  placeholder="Name *"
+                />
+
+                <label htmlFor="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  {...register("email")}
+                  required
+                  placeholder="E-Mail *"
+                />
               </div>
-              <input type="text" required placeholder="Subject *" />
+              <label htmlFor="subject"></label>
+              <input
+                type="text"
+                id="subject"
+                {...register("subject")}
+                required
+                placeholder="Subject *"
+              />
+
+              <label htmlFor="message"></label>
               <textarea
-                name=""
-                id=""
+                {...register("message")}
+                id="message"
                 cols="30"
                 rows="10"
                 required
@@ -37,8 +71,8 @@ const Contact = () => {
                 <span>SEND MESSAGE</span>
                 <i class="fa-solid fa-envelope-circle-check"></i>
               </button>
-              
             </form>
+            <DevTool control={control} />
           </div>
           <div className="contact-details">
             <div className="myImage">

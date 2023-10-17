@@ -53,6 +53,9 @@ textarea {
   outline: none;
   letter-spacing: 0.8px;
 }
+label{
+  display: none;
+}
 .row {
   display: flex;
 }
