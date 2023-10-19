@@ -2,3 +2,12 @@
     margin: 0; padding: 0;
     box-sizing: border-box;
 }
+
+.portfolio{
+    padding: 4rem 2rem;
+    background: #111;
+}
+.portfolio h1{
+    color: #b6fb41;
+    font-size: 39px;
+}

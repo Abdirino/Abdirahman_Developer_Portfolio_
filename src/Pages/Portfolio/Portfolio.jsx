@@ -1,12 +1,19 @@
 import React from "react";
 import "./portfolio.css";
 import Navbar from "../../Components/Navbar/Navbar";
+import Background from "../../Components/Background/Background";
 
 const Portfolio = () => {
   return (
     <>
       <Navbar />
-      <div className="portfolio"></div>
+      <Background home="Home" section="Portfolio"/>
+      <div className="portfolio">
+        <h1>Recent Projects</h1>
+        <div className="projects">
+          <div className="project"></div>
+        </div>
+      </div>
     </>
   );
 };

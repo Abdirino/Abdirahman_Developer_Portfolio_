@@ -7,6 +7,7 @@ import Background from "../../Components/Background/Background";
 // import Record from '../../Components/Record/Record'
 import Footer from "../../Components/Footer/Footer";
 import Skills from "../../Components/Skills/Skills";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -30,10 +31,12 @@ const About = () => {
                 <span>RESUME</span>
                 <i class="fa-solid fa-file"></i>
               </button>
-              <button className="button">
-                <span>PORTFOLIO</span>
-                <i class="fa-solid fa-diagram-project"></i>
-              </button>
+              <Link to="/portfolio">
+                <button className="button">
+                  <span>PORTFOLIO</span>
+                  <i class="fa-solid fa-diagram-project"></i>
+                </button>
+              </Link>
             </div>
           </div>
 

@@ -4,6 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 // import Record from '../../Components/Record/Record'
 import Footer from '../../Components/Footer/Footer'
 import HService from '../../Components/ServicesHome/HomeService'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -24,7 +25,7 @@ const Home = () => {
           <div className="h-links">
 
             <div className="proj-link">
-              <h1 className='text'>Take a tour of my <span>projects</span></h1>
+              <h1 className='text'>Take a tour of my <Link to='/portfolio'><span>projects</span></Link></h1>
               <h2>Explore My Work and discover the
                 creativity that fuels my designs, and the
                 innovation that breathes life into my code.
