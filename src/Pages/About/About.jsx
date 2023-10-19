@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Navbar from "../../Components/Navbar/Navbar";
 
-import AboutIMG from "../../Assets/Images/About.png.jpg";
+import AboutIMG from "../../Assets/Images/Coder.png";
 import Background from "../../Components/Background/Background";
 // import Record from '../../Components/Record/Record'
 import Footer from "../../Components/Footer/Footer";

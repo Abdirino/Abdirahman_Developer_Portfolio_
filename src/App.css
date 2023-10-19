@@ -50,7 +50,7 @@ ul {
   cursor: pointer;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  /* align-items: center; */
+  align-items: center;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   position: relative;
@@ -111,19 +111,24 @@ ul {
 .button i {
   position: relative;
   display: none;
-  right: -15px;
+  /* right: -15px; */
+}
+.button:hover span{
+  display: block;
+  padding-right: 6px;
 }
 .button:hover i{
   display: block;
-  padding-right: 15px;
 }
 
 .button:hover {
   background: linear-gradient(90deg, #677e08 -12.74%, #677e08 56.76%);
   color: rgb(255, 255, 255) !important;
-  transition: all 0.4s ease;
-  gap: 11px;
+  gap: 9px;
   /* flex-direction: row-reverse; */
+}
+.button:active{
+  background: linear-gradient(90deg, #7f9f03 -12.74%, #809a1a 56.76%);
 }
 
 /* Button CSS*/

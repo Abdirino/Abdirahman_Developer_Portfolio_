@@ -10,7 +10,7 @@
   padding: 8rem 2.1rem 6rem 2.1rem;
   background: #111;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   gap: 3.5rem;
   /* border-bottom: 2px solid grey; */
@@ -20,8 +20,6 @@
   flex: 1 1 400px;
   overflow: hidden;
   border-radius: 4px;
-  box-shadow: 0 0 10px #b6fb41;
-  /* clip-path: circle(50%); */
 }
 .a-image img {
   width: 100%;
