@@ -7,7 +7,7 @@ const HService = () => {
     <>
       <div className="h-Services">
         <h4>|| My Services 🧑‍💻</h4>
-        <h1>Transforming Vision into Web Reality with Unparalleled Full-Stack Expertise.</h1>
+        <h1>Your Success, My Priority: A Versatile Palette of Services.</h1>
         <div className="h-services">
           <div className="h-service">
             <i class="fa-solid fa-layer-group"></i>

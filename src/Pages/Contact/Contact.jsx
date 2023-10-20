@@ -109,7 +109,7 @@ const Contact = () => {
                 <i class="fa-solid fa-envelope-circle-check"></i>
               </button>
             </form>
-            <DevTool control={control} />
+            {/* <DevTool control={control} /> */}
           </div>
           <div className="contact-details">
             <div className="myImage">

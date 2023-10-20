@@ -15,6 +15,7 @@ import git from "../../Assets/Images/icons8-git-48.png";
 import github from "../../Assets/Images/icons8-github-48.png";
 import vite from "../../Assets/Images/icons8-vite-48.png";
 import { Link } from "react-router-dom";
+import Interest from "../Interest/Interest";
 
 const Skills = () => {
   return (
@@ -29,12 +30,6 @@ const Skills = () => {
               Unlocking the potential of the digital realm through mastery of
               Full-Stack Development.
             </p>
-            <Link to="/contact">
-              <button className="button">
-                <span>HIRE ME</span>
-                <i class="fa-solid fa-computer"></i>
-              </button>
-            </Link>
           </div>
           <div className="skill-content">
             <div className="s-content">
@@ -63,6 +58,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <Interest />
     </>
   );
 };
