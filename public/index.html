@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="manifest" href="manifest.json">
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -22,5 +23,11 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./service-worker.js')
+      }
+    </script>
   </body>
 </html>
