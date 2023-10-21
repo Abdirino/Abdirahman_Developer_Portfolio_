@@ -72,7 +72,7 @@
 .nav-links {
   font-size: 17px !important;
   position: relative;
-  padding: 4px;
+  /* padding: 4px; */
 }
 .nav-links::after {
   content: "";
@@ -90,11 +90,11 @@
 .nav-links:hover {
   color: #b6fb41 !important;
 }
-.nav-links:hover::after {
+/* .nav-links:hover::after {
   right: auto;
   left: 0;
   width: 100%;
-}
+} */
 
 .nav-links.active {
   color: #b6fb41;

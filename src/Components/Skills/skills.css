@@ -93,6 +93,9 @@
   }
   .skills {
     max-width: 69%;
-    gap: 6rem;
+    /* gap: 6rem; */
+  }
+  .skill-content{
+    justify-content: flex-start;
   }
 }

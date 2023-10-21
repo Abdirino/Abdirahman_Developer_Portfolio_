@@ -9,7 +9,7 @@ const Portfolio = () => {
       <Navbar />
       <Background home="Home" section="Portfolio"/>
       <div className="portfolio">
-        <h1>Latest Projects</h1>
+        <h1>Recent Projects</h1>
         <div className="projects">
           <div className="project"></div>
         </div>

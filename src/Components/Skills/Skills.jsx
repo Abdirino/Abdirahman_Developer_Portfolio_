@@ -14,8 +14,10 @@ import mongo from "../../Assets/Images/icons8-mongo-db-64.png";
 import git from "../../Assets/Images/icons8-git-48.png";
 import github from "../../Assets/Images/icons8-github-48.png";
 import vite from "../../Assets/Images/icons8-vite-48.png";
+import SQL from "../../Assets/Images/icons8-mysql-48.png";
+import stripe from "../../Assets/Images/icons8-stripe-94.png";
+
 import { Link } from "react-router-dom";
-import Interest from "../Interest/Interest";
 
 const Skills = () => {
   return (
@@ -30,6 +32,12 @@ const Skills = () => {
               Unlocking the potential of the digital realm through mastery of
               Full-Stack Development.
             </p>
+            <Link to="/contact">
+              <button className="button">
+                <span>CONTACT NOW</span>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </Link>
           </div>
           <div className="skill-content">
             <div className="s-content">
@@ -52,13 +60,14 @@ const Skills = () => {
               <i class="fa-brands fa-node" style={{ color: "#098b30" }}></i>
               <img src={express} alt="" />
               <img src={mongo} alt="" />
+              <img src={SQL} alt="" />
               <img src={git} alt="" />
               <img src={github} alt="" />
+              <img src={stripe} alt="" />
             </div>
           </div>
         </div>
       </div>
-      <Interest />
     </>
   );
 };

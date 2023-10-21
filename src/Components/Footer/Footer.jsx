@@ -12,6 +12,7 @@ const Footer = () => {
         top="21"
         style={{ background: "#b7fb41c4", fontWeight: "bolder" }}
       />
+      <div className="line"></div>
       <div className="copy-write">
         <img src={FooterIMG} alt="Logo" />
 
