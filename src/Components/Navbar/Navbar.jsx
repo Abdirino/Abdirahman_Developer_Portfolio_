@@ -54,28 +54,30 @@ const Navbar = () => {
                   About
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/portfolio"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={click ? handleClick : null}
+                >
+                  Portfolio
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/contact"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={click ? handleClick : null}
+                >
+                  Contacts
+                </NavLink>
+              </li>
 
-              <NavLink
-                exact
-                to="/portfolio"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Portfolio
-              </NavLink>
-
-              <li className="nav-links">Blogs</li>
-
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Contacts
-              </NavLink>
+              {/* <li className="nav-links">Blogs</li> */}
             </ul>
           </div>
 

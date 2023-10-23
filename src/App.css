@@ -40,8 +40,8 @@ ul {
 .button {
   font-family: "ZCOOL QingKe HuangYou", sans-serif;
   letter-spacing: 1px;
-  min-height: 45px;
-  min-width: 110px;
+  min-height: 39px;
+  min-width: 99px;
   padding: 0.6rem !important;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,7 +64,7 @@ ul {
   background: #d6fb41;
   border: 2px solid #4a680a;
   color: #000000 !important;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
   transition: all 0.4s ease;
@@ -183,7 +183,7 @@ ul {
 @media (min-width: 1890px) {
   .button {
     padding: 1rem;
-    font-size: 25px;
+    font-size: 21px;
   }
 }
 @media (max-width: 560px) {
