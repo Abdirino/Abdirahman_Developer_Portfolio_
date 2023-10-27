@@ -41,6 +41,7 @@
   /* gap: 1.1rem; */
   /* align-items: center; */
   justify-content: start;
+  gap: 1rem;
 }
 form input,
 textarea {
@@ -65,6 +66,9 @@ label{
 }
 .row {
   display: flex;
+}
+.margin{
+  margin-right: 6px;
 }
 form .button {
   width: fit-content;
@@ -119,12 +123,6 @@ form .button {
 .det h3{
     text-align: start;
     font-weight: lighter;
-}
-
-.error{
-  color: red;
-  font-size: 8px;
-  text-align: left;
 }
 
 @media(max-width: 1090px){

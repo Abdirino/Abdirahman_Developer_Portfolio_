@@ -1,7 +1,6 @@
 import React from "react";
 import "./contact.css";
 import { useForm } from "react-hook-form";
-import { DevTool } from "@hookform/devtools";
 import Navbar from "../../Components/Navbar/Navbar";
 import Background from "../../Components/Background/Background";
 
@@ -28,81 +27,67 @@ const Contact = () => {
               Your perspective matters 💌, and I'm truly interested in what you
               have to say.
             </p>
-            <form
-              onSubmit={handleSubmit(onSubmit)}
-              autoComplete="off"
-              noValidate
-            >
-                <div className="formControl">
-                  <label htmlFor="name"></label>
-                  <input
-                    type="text"
-                    id="name"
-                    {...register("name", {
-                      required: {
-                        value: true,
-                        message: "Your Name is Required",
-                      },
-                    })}
-                    className="margin"
-                    required
-                    placeholder="Name *"
-                  />
-                  <p className="error">{errors.name?.message}</p>
-                </div>
-
-                <div className="formControl">
-                  <label htmlFor="email"></label>
-                  <input
-                    type="email"
-                    id="email"
-                    {...register("email", {
-                      pattern: {
-                        value:
-                          /^[a-zA-Z0-9. !#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-                        message: "Invalid Email Format",
-                      },
-                    })}
-                    required
-                    placeholder="E-Mail *"
-                  />
-                  <p className="error">{errors.email?.message}</p>
-                </div>
-
-              <div className="formControl">
-                <label htmlFor="subject"></label>
+            <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
+              <div className="row">
+                <label htmlFor="name"></label>
                 <input
                   type="text"
-                  id="subject"
-                  {...register("subject", {
+                  id="name"
+                  {...register("name", {
                     required: {
                       value: true,
-                      message: "Whats your subject?",
+                      message: "Your Name is Required",
+                    },
+                  })}
+                  className="margin"
+                  required
+                  placeholder="Name *"
+                />
+
+                <label htmlFor="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  {...register("email", {
+                    pattern: {
+                      value:
+                        /^[a-zA-Z0-9. !#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                      message: "Invalid Email Format",
                     },
                   })}
                   required
-                  placeholder="Subject *"
+                  placeholder="E-Mail *"
                 />
-                <p className="error">{errors.subject?.message}</p>
               </div>
 
-              <div className="formControl">
-                <label htmlFor="message"></label>
-                <textarea
-                  {...register("message", {
-                    required: {
-                      value: true,
-                      message: "Input Your Message",
-                    },
-                  })}
-                  id="message"
-                  cols="30"
-                  rows="10"
-                  required
-                  placeholder="Your Message *"
-                ></textarea>
-                <p className="error">{errors.message?.message}</p>
-              </div>
+              <label htmlFor="subject"></label>
+              <input
+                type="text"
+                id="subject"
+                {...register("subject", {
+                  required: {
+                    value: true,
+                    message: "Whats your subject?",
+                  },
+                })}
+                required
+                placeholder="Subject *"
+              />
+
+              <label htmlFor="message"></label>
+              <textarea
+                {...register("message", {
+                  required: {
+                    value: true,
+                    message: "Input Your Message",
+                  },
+                })}
+                id="message"
+                cols="30"
+                rows="10"
+                required
+                placeholder="Your Message *"
+              ></textarea>
 
               <button className="button">
                 <span>SEND MESSAGE</span>

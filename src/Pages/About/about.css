@@ -46,6 +46,8 @@
   color: #b6fb41;
   font-size: 39px;
   font-weight: lighter;
+  -webkit-text-stroke: 1px #d6fb41;
+  -webkit-text-fill-color: #111;
 }
 .a-detail p {
   color: rgb(171, 170, 170);
