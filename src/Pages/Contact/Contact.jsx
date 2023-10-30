@@ -24,8 +24,7 @@ const Contact = () => {
           <div className="form">
             <h1>Get In Touch</h1>
             <p>
-              Your perspective matters 💌, and I'm truly interested in what you
-              have to say.
+              Contact me for freelance or collaboration💌
             </p>
             <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
               <div className="row">

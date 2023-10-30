@@ -14,9 +14,9 @@ const Home = () => {
       <div className="Home">
         <div className="home">
           <div className="h-detail">
-            <h1 className='text'>Hello there 👋,</h1>
+            <h1 className='text'>Hey👋,</h1>
             <h1 className='text2'>I'm Abdirahman A.</h1>
-            <p>Full-Stack Developer with Expertise in UI/UX Design, JavaScript, React, Next.js, Node.js, MongoDB and Git.</p>
+            <p>Full-Stack Developer with a strong background in UI/UX Design, JavaScript, React, Next.js, Node.js, MongoDB, and Git.</p>
             <button className="button">
               <span>GET RESUME</span>
               <i class="fa-solid fa-download"></i>

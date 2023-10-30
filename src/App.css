@@ -12,15 +12,14 @@
 .App h1,
 h2,
 h3,
-h4,
-li,
-ul {
+h4 {
   font-family: "Overpass", sans-serif;
   letter-spacing: 2px;
 }
-.App p, span {
+.App p, ul, li span {
   font-family: "Geologica", sans-serif;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 /* Scrollbar css */

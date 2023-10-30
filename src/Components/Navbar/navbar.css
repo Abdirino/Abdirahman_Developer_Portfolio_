@@ -71,7 +71,7 @@
 
 .nav-links {
   font-size: 14px !important;
-  padding: 1px 2px;
+  padding: 1px 4px;
 }
 .nav-links:hover {
   color: #b6fb41 !important;
@@ -79,7 +79,7 @@
 
 .nav-links.active {
   color: #b6fb41 !important;
-  border-bottom: 2px solid #b6fb41;
+  /* border-bottom: 2px solid #b6fb41; */
 }
 /* .nav-links:hover::before {
   transition: transform 0.2s;

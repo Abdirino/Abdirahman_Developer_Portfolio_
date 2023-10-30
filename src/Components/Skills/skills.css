@@ -29,8 +29,6 @@
 .skill-detail h1 {
   font-size: 54px;
   color: #b6fb41;
-  -webkit-text-stroke: 2px #d6fb41;
-  -webkit-text-fill-color: #111;
 }
 .skill-detail p {
   color: white;
