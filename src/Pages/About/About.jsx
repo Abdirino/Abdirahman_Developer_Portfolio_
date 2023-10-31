@@ -20,7 +20,7 @@ const About = () => {
             <h3>|| About Me</h3>
             <h1>I'm a highly skilled Full-Stack</h1>
             <h1>Developer with over 2 years</h1>
-            <h1>of professional experience.</h1>
+            <h1>of professional experience<span>.</span></h1>
             <p>
               My goal is to deliver exceptional experiences that meet both
               client needs and industry expectations, ensuring your projects are

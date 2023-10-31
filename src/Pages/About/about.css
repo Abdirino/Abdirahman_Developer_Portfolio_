@@ -44,7 +44,10 @@
 }
 .a-detail h1 {
   color: #b6fb41;
-  font-size: 42px;
+  font-size: 44px;
+}
+.a-detail h1 span{
+  color: #517f02;
 }
 .a-detail p {
   color: rgb(253, 253, 253);

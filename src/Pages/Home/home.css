@@ -35,12 +35,13 @@
   padding: 1rem;
 }
 .h-detail h1 {
-  font-size: 62px;
+  font-size: 69px;
   color: #d6fb41;
+  cursor: pointer;
 }
 .h-detail p {
   color: white;
-  font-size: 24px;
+  font-size: 21px;
   padding: 1rem 0;
 }
 .h-detail .button {
@@ -114,19 +115,7 @@
   color: inherit; text-decoration: inherit;
 }
 .social a i:hover {
-  transform: scale(1.08);
-}
-.social a i:nth-child(1):hover {
-  color: inherit;
-}
-.social a i:nth-child(2):hover {
-  color: #0a66c2;
-}
-.social i:nth-child(3):hover {
-  color: #3b5998;
-}
-.social i:nth-child(4):hover {
-  color: #6e5494;
+  transform: scale(1.17);
 }
 
 @media (max-width: 1170px) {

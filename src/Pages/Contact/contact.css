@@ -41,7 +41,7 @@
   /* gap: 1.1rem; */
   /* align-items: center; */
   justify-content: start;
-  gap: 1rem;
+  gap: 1.4rem;
 }
 form input,
 textarea {
@@ -68,7 +68,7 @@ label{
   display: flex;
 }
 .margin{
-  margin-right: 6px;
+  margin-right: 11px;
 }
 form .button {
   width: fit-content;
@@ -133,6 +133,9 @@ form .button {
 @media(max-width: 590px){
     .row{
         flex-direction: column;
+    }
+    .margin{
+      margin: 1.4rem 0;
     }
       .contact{
         padding: 2rem 10px;
