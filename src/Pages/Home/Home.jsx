@@ -6,6 +6,7 @@ import Footer from "../../Components/Footer/Footer";
 import HService from "../../Components/ServicesHome/HomeService";
 import { Link } from "react-router-dom";
 import TextAnimation from "../../Components/TextAnimation/TextAnimation";
+import { Partytown } from "@builder.io/partytown/react";
 
 const Home = () => {
   const sentence = "Abdirahman".split("");
@@ -16,6 +17,7 @@ const Home = () => {
 
   return (
     <>
+      <Partytown debug={true} forward={['dataLayer.push']} />
       <Navbar />
       <div className="Home">
         <div className="home">

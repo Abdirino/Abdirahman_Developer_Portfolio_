@@ -6,6 +6,7 @@ import Background from "../../Components/Background/Background";
 
 import myImage from "../../Assets/Images/abdirino-pro.jpg";
 import Footer from "../../Components/Footer/Footer";
+import { Partytown } from "@builder.io/partytown/react";
 
 const Contact = () => {
   const form = useForm();
@@ -17,6 +18,7 @@ const Contact = () => {
   };
   return (
     <>
+      <Partytown debug={true} forward={['dataLayer.push']} />
       <Navbar />
       <Background home="Home" section="Contacts" />
       <div className="Contacts">

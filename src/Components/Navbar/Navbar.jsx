@@ -3,6 +3,7 @@ import "./navbar.css";
 
 import NavIcon from "../../Assets/Images/A-Footer.png";
 import { Link, NavLink } from "react-router-dom";
+import TextAnimation from "../TextAnimation/TextAnimation";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -10,6 +11,10 @@ const Navbar = () => {
   const handleClick = () => {
     setClick(!click);
   };
+  const sentence = "Home".split("");
+  const sentence2 = "About".split("");
+  const sentence3 = "Portfolio".split("");
+  const sentence4 = "Contact".split("");
   // const close = () => { setClick(false) };
 
   return (
@@ -40,7 +45,9 @@ const Navbar = () => {
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
-                  Home
+                  {sentence.map((letter, index) => {
+                    return <TextAnimation key={index}>{letter}</TextAnimation>;
+                  })}
                 </NavLink>
               </li>
               <li>
@@ -51,7 +58,9 @@ const Navbar = () => {
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
-                  About
+                  {sentence2.map((letter, index) => {
+                    return <TextAnimation key={index}>{letter}</TextAnimation>;
+                  })}
                 </NavLink>
               </li>
               <li>
@@ -62,7 +71,9 @@ const Navbar = () => {
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
-                  Portfolio
+                  {sentence3.map((letter, index) => {
+                    return <TextAnimation key={index}>{letter}</TextAnimation>;
+                  })}
                 </NavLink>
               </li>
               <li>
@@ -73,7 +84,9 @@ const Navbar = () => {
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
-                  Contacts
+                  {sentence4.map((letter, index) => {
+                    return <TextAnimation key={index}>{letter}</TextAnimation>;
+                  })}
                 </NavLink>
               </li>
 

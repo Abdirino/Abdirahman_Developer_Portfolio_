@@ -8,10 +8,12 @@ import Background from "../../Components/Background/Background";
 import Footer from "../../Components/Footer/Footer";
 import Skills from "../../Components/Skills/Skills";
 import { Link } from "react-router-dom";
+import { Partytown } from "@builder.io/partytown/react";
 
 const About = () => {
   return (
     <>
+      <Partytown debug={true} forward={['dataLayer.push']} />
       <Navbar />
       <Background home="Home" section="About" />
       <div className="About">

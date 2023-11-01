@@ -1,14 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { useEffect, useState } from "react";
+import { Suspense, lazy, useEffect, useState } from "react";
 
-import Home from "../src/Pages/Home/Home";
-import About from "./Pages/About/About";
-import Services from "./Pages/Services/Services";
 import Loader from "./Components/Loader/Loader";
-import Contact from "./Pages/Contact/Contact";
 import TopPage from "./TopPage";
-import Portfolio from "./Pages/Portfolio/Portfolio";
+
+const Home = lazy(() => import("../src/Pages/Home/Home"))
+const About = lazy(() => import("./Pages/About/About"))
+const Services = lazy(() => import("./Pages/Services/Services"))
+const Contact = lazy(() => import("./Pages/Contact/Contact"))
+const Portfolio = lazy(() => import("./Pages/Portfolio/Portfolio"))
 
 function App() {
   const [loading, SetLoading] = useState(false);
@@ -26,13 +27,15 @@ function App() {
       ) : (
         <BrowserRouter>
           <TopPage />
-          <Routes>
-            {loading ? <Loader /> : <Route path="/" element={<Home />} />}
-            {loading ? <Loader /> : <Route path="/about" element={<About />} />}
-            {loading ? <Loader /> : <Route path="/services" element={<Services />} />}
-            {loading ? <Loader /> : <Route path="/contact" element={<Contact />} />}
-            {loading ? <Loader /> : <Route path="/portfolio" element={<Portfolio />} />}
-          </Routes>
+          <Suspense fallback={<Loader />}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+            </Routes>
+          </Suspense>
         </BrowserRouter>
       )}
     </div>

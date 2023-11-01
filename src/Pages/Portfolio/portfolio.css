@@ -18,3 +18,12 @@
     color: white;
     font-size: 21px;
 }
+
+@media(max-width: 690px){
+    .portfolio h1{
+        font-size: 39px;
+    }
+    .portfolio p{
+        font-size: 17px;
+    }
+}
