@@ -14,6 +14,7 @@ const Home = () => {
   const sentence3 = "A.".split("");
   const sentence4 = "I'm".split("");
   const sentence5 = "projects".split("");
+  const sentence6 = "There".split("");
 
   return (
     <>
@@ -24,6 +25,8 @@ const Home = () => {
           <div className="h-detail">
             <h1 className="h1">
               {sentence2.map((letter, index) => {
+                return <TextAnimation key={index}>{letter}</TextAnimation>;
+              })} {sentence6.map((letter, index) => {
                 return <TextAnimation key={index}>{letter}</TextAnimation>;
               })}
               👋,

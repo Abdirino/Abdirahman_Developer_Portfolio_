@@ -30,7 +30,7 @@ const About = () => {
             </p>
             <div className="about-links">
               <button className="button">
-                <span>RESUME</span>
+                <span>DOWNLOAD CV</span>
                 <i class="fa-solid fa-file"></i>
               </button>
               <Link to="/portfolio">

@@ -20,6 +20,7 @@ import stripe from "../../Assets/Images/icons8-stripe-94.png";
 import { Link } from "react-router-dom";
 
 const Skills = () => {
+
   return (
     <>
       <div className="Skills">
