@@ -37,7 +37,7 @@
 .h-detail h1 {
   font-size: 69px;
   color: #d6fb41;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .h-detail p {
   color: white;

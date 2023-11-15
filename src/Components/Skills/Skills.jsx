@@ -18,8 +18,14 @@ import SQL from "../../Assets/Images/icons8-mysql-48.png";
 import stripe from "../../Assets/Images/icons8-stripe-94.png";
 
 import { Link } from "react-router-dom";
+import TextAnimation from "../TextAnimation/TextAnimation";
 
 const Skills = () => {
+
+  const sentence = "Elevating".split("");
+  const sentence2 = "Full-Stack".split("");
+  const sentence3 = "Development".split("");
+  const sentence4 = "Skills.".split("");
 
   return (
     <>
@@ -27,8 +33,16 @@ const Skills = () => {
         <div className="skills">
           <div className="skill-detail">
             <h2>|| My Skills</h2>
-            <h1 className="text">Elevating Full-Stack</h1>
-            <h1 className="text">Development Skills.</h1>
+            <h1 className="text">{sentence.map((letter, index) => {
+                return <TextAnimation key={index}>{letter}</TextAnimation>;
+              })} {sentence2.map((letter, index) => {
+                return <TextAnimation key={index}>{letter}</TextAnimation>;
+              })}</h1>
+            <h1 className="text">{sentence3.map((letter, index) => {
+                return <TextAnimation key={index}>{letter}</TextAnimation>;
+              })} {sentence4.map((letter, index) => {
+                return <TextAnimation key={index}>{letter}</TextAnimation>;
+              })}</h1>
             <p>
               Unlocking the potential of the digital realm through mastery of
               Full-Stack Development.
