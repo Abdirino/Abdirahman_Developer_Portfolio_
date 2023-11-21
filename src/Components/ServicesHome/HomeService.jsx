@@ -1,13 +1,19 @@
 import React from "react";
 import "./Hservice.css";
 import Skills from "../Skills/Skills";
+import TextAnimation from "../TextAnimation/TextAnimation";
 
 const HService = () => {
+  const sentence = "My".split("");
+  const sentence2 = "Expertise".split("");
   return (
     <>
       <div className="h-Services">
-        <h4>|| My Services 🧑‍💻</h4>
-        <h1>Your Success, My Priority: A Versatile Palette of Services.</h1>
+        <h1>{sentence.map((letter, index) => {
+            return <TextAnimation key={index}>{letter}</TextAnimation>;
+          })} {sentence2.map((letter, index) => {
+            return <TextAnimation key={index}>{letter}</TextAnimation>;
+          })}🧑‍💻</h1>
         <div className="h-services">
           <div className="h-service">
             <i class="fa-solid fa-layer-group"></i>

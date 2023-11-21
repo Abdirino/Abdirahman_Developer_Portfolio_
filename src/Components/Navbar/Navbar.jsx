@@ -11,10 +11,10 @@ const Navbar = () => {
   const handleClick = () => {
     setClick(!click);
   };
-  const sentence = "Home".split("");
-  const sentence2 = "About".split("");
-  const sentence3 = "Portfolio".split("");
-  const sentence4 = "Contact".split("");
+  const sentence = "//Home".split("");
+  const sentence2 = "//About".split("");
+  const sentence3 = "//Portfolio".split("");
+  const sentence4 = "//Contact".split("");
   // const close = () => { setClick(false) };
 
   return (

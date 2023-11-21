@@ -44,19 +44,15 @@
 }
 .a-detail h1 {
   color: #b6fb41;
-  font-size: 44px;
+  font-size: 42px;
 }
 .a-detail h1 span{
   color: #517f02;
 }
 .a-detail p {
   color: rgb(253, 253, 253);
-  font-size: 21px;
+  font-size: 19px;
   padding: 1.6rem 0;
-}
-.a-detail .button {
-  margin: 0 !important;
-  padding: 1rem 0;
 }
 .about-links{
   display: flex;
@@ -149,10 +145,6 @@
     font-size: 32px;
     font-weight: lighter;
   }
-  .a-detail h2 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-  }
   .a-detail p {
     color: grey;
     font-size: 15px;
@@ -167,7 +159,7 @@
   }
 }
 
-@media(min-width:1890px) {
+@media(min-width:1990px) {
   .About{
     display: flex;
     justify-content: center;

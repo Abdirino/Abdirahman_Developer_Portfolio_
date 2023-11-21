@@ -4,7 +4,7 @@
 }
 
 .portfolio{
-    padding: 4rem 2rem;
+    padding: 4rem 1rem;
     background: #111;
 }
 .portfolio h1{
@@ -17,6 +17,18 @@
 .portfolio p{
     color: white;
     font-size: 21px;
+}
+.projects{
+    padding: 3rem 0;
+}
+.project .project-img{
+    width: 100%; height: 49%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.project-img img{
+    width: 100%; height: 100%;
+    object-fit: cover;
 }
 
 @media(max-width: 690px){

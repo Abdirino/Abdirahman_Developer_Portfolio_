@@ -37,97 +37,49 @@ h4 {
 
 /* Button CSS */
 .button {
-  font-family: "ZCOOL QingKe HuangYou", sans-serif;
-  letter-spacing: 1px;
-  min-height: 39px;
-  min-width: 99px;
-  padding: 0.6rem !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  /* gap: 1rem; */
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: #212121;
+  border: 0.08em solid #ffffff;
+  border-radius: 0.3em;
+  font-size: 10px;
   cursor: pointer;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+}
+
+.button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  position: relative;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(-12.74%, rgba(110, 239, 255, 0.5)),
-    color-stop(56.76%, rgba(106, 224, 255, 0.271))
-  );
-  background: #d6fb41;
-  border: 2px solid #4a680a;
-  color: #000000 !important;
-  font-size: 14px;
-  text-transform: capitalize;
-  font-weight: 600;
-  transition: all 0.4s ease;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #212121;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff;
+  border: 0.08em solid #b6fb41;
+  box-shadow: 0 0.4em 0.1em 0.019em #b6fb41;
 }
 
-@media (max-width: 968px) {
-  .button {
-    min-height: 40px;
-    min-width: 140px;
-    font-size: 21px;
-    border: 1px solid #4a680a;
-    gap: 0.6rem;
-  }
+.button span:hover {
+  transition: all 0.4s;
+  transform: translate(0, 0.1em);
+  box-shadow: 0 0 0 0 #b6fb41;
+  color: #b6fb41;
 }
 
-.button:before {
-  content: "";
-  width: 4px;
-  height: 28px;
-  background: #19173b;
-  border: 2px solid #435303;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  position: absolute;
-  border-top: 0;
-  border-left: 0;
-  border-bottom: 0;
-  bottom: -7px;
-  left: 4px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
+.button span:active {
+  transition: all 0.4s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #b6fb41;
 }
 
-.button:after {
-  content: "";
-  position: absolute;
-  left: -2px;
-  bottom: -2px;
-  border-top: 15px solid transparent;
-  border-left: 15px solid #ffffff;
-}
-
-.button i {
-  position: relative;
-  display: none;
-  /* right: -15px; */
-}
-.button:hover span{
-  display: block;
-  padding-right: 6px;
-}
-.button:hover i{
-  display: block;
-}
-
-.button:hover {
-  background: linear-gradient(90deg, #677e08 -12.74%, #677e08 56.76%);
-  color: rgb(255, 255, 255) !important;
-  gap: 9px;
-  /* flex-direction: row-reverse; */
-}
-.button:active{
-  background: linear-gradient(90deg, #7f9f03 -12.74%, #809a1a 56.76%);
+.button span:not(:hover) {
+  transition: all 0.3s;
+  
 }
 
 /* Button CSS*/

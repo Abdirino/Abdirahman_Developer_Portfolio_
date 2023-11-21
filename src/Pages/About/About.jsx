@@ -31,12 +31,10 @@ const About = () => {
             <div className="about-links">
               <button className="button">
                 <span>DOWNLOAD CV</span>
-                <i class="fa-solid fa-file"></i>
               </button>
               <Link to="/portfolio">
                 <button className="button">
                   <span>PORTFOLIO</span>
-                  <i class="fa-solid fa-diagram-project"></i>
                 </button>
               </Link>
             </div>
