@@ -59,6 +59,7 @@ h4 {
   border-radius: 0.2em;
   font-size: 1.5em;
   font-weight: bold;
+  letter-spacing: 0.6px;
   color: #ffffff;
   border: 0.08em solid #b6fb41;
   box-shadow: 0 0.4em 0.1em 0.019em #b6fb41;
@@ -79,7 +80,36 @@ h4 {
 
 .button span:not(:hover) {
   transition: all 0.3s;
+}
+
+@media (max-width: 470px){
+  .button {
+    padding: 0.1em;
+    width: 8em;
+    height: 3.5em;
+    background-color: #212121;
+    border: 0.04em solid #ffffff;
+    border-radius: 0.3em;
+    font-size: 8px;
+    cursor: pointer;
+  }
   
+  .button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.2em;
+    width: 6.4em;
+    height: 2.1em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    border: 0.04em solid #b6fb41;
+    box-shadow: 0 0.4em 0.1em 0.019em #b6fb41;
+  }
 }
 
 /* Button CSS*/

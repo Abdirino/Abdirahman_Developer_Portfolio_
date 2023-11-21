@@ -49,8 +49,7 @@ const Skills = () => {
             </p>
             <Link to="/contact">
               <button className="button">
-                <span>CONTACT NOW</span>
-                <i class="fa-solid fa-phone"></i>
+                <span>CALL NOW</span>
               </button>
             </Link>
           </div>

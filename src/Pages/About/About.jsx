@@ -30,7 +30,7 @@ const About = () => {
             </p>
             <div className="about-links">
               <button className="button">
-                <span>DOWNLOAD CV</span>
+                <span>RESUME</span>
               </button>
               <Link to="/portfolio">
                 <button className="button">

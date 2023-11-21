@@ -98,7 +98,6 @@ const Navbar = () => {
             <Link to="/contact">
               <button className="button">
                 <span>HIRE ME</span>
-                <i className="fa-solid fa-angles-right"></i>
               </button>
             </Link>
           </div>

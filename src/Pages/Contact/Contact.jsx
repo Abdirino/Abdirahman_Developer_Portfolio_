@@ -91,8 +91,7 @@ const Contact = () => {
               ></textarea>
 
               <button className="button">
-                <span>SEND MESSAGE</span>
-                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>SEND</span>
               </button>
             </form>
             {/* <DevTool control={control} /> */}

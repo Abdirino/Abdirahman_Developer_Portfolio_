@@ -47,8 +47,7 @@ const Home = () => {
               JavaScript, React, Next.js, Node.js, MongoDB, and Git.
             </p>
             <button className="button">
-              <span>GET RESUME</span>
-              <i class="fa-solid fa-download"></i>
+              <span>RESUME</span>
             </button>
           </div>
           <div className="h-links">
