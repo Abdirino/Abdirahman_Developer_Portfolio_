@@ -5,7 +5,7 @@ import Background from "../../Components/Background/Background";
 import TextAnimation from "../../Components/TextAnimation/TextAnimation";
 import { Partytown } from "@builder.io/partytown/react";
 
-import FlexiDrive from "../../Assets/Images/FlexiDrive.png"
+import FlexiDrive from "../../Assets/Images/FlexiDrive.png.png"
 
 const Portfolio = () => {
   const sentence4 = "Projects".split("");
@@ -23,6 +23,11 @@ const Portfolio = () => {
         </h1>
         <p>Selected Past Projects I've Undertaken</p>
         <div className="projects">
+          <div className="project">
+            <div className="project-img">
+              <img src={FlexiDrive} alt="" />
+            </div>
+          </div>
           <div className="project">
             <div className="project-img">
               <img src={FlexiDrive} alt="" />
