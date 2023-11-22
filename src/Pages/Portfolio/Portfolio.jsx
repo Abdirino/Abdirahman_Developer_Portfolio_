@@ -6,6 +6,7 @@ import TextAnimation from "../../Components/TextAnimation/TextAnimation";
 import { Partytown } from "@builder.io/partytown/react";
 
 import FlexiDrive from "../../Assets/Images/FlexiDrive.png.png";
+import IAffordable from "../../Assets/Images/IAffordable.png";
 
 const Portfolio = () => {
   const sentence4 = "Projects".split("");
@@ -37,10 +38,10 @@ const Portfolio = () => {
           </div>
           <div className="project">
             <div className="project-img">
-              <img src={FlexiDrive} alt="" />
+              <img src={IAffordable} alt="" />
             </div>
             <div className="project-detail">
-              <h2>FlexiDrive (Car Rental Solution)</h2>
+              <h2>IAffordableNet ( ISP )</h2>
               <p>Web Development</p>
               <button className="button">
                 <span>View</span>
@@ -49,10 +50,10 @@ const Portfolio = () => {
           </div>
           <div className="project">
             <div className="project-img">
-              <img src={FlexiDrive} alt="" />
+              <img src={IAffordable} alt="" />
             </div>
             <div className="project-detail">
-              <h2>FlexiDrive (Car Rental Solution)</h2>
+              <h2>IAffordableNet ( ISP )</h2>
               <p>Web Development</p>
               <button className="button">
                 <span>View</span>
