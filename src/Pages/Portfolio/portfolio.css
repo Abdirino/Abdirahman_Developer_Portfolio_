@@ -24,14 +24,50 @@
     grid-template-columns: auto auto;
     gap: 4rem;
 }
+.project{
+    cursor: pointer;
+    transition: all 0.5s;
+}
 .project .project-img{
-    width: 100%; height: 100%;
+    width: 100%; height: auto;
     overflow: hidden;
     border-radius: 4px;
 }
 .project-img img{
     width: 100%; height: 100%;
     object-fit: cover;
+    transition: all 0.5s;
+}
+.project-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem 0;
+    text-align: start;
+    color: white;
+}
+.project-detail h2{
+    font-size: 29px;
+    color: #fff !important;
+}
+.project-detail p{
+    font-size: 17px;
+    color: grey !important;
+    padding-bottom: 1rem;
+}
+.project-detail .button{
+    display: none;
+    filter: blur(2px);
+    transition: all 0.5s;
+    transform: translateX(-10px);
+}
+.project:hover .project-img img{
+    scale: 1.04;
+}
+.project:hover .project-detail .button{
+    display: block;
+    filter: blur(0);
+    transform: translateX(10px);
 }
 
 @media(max-width: 690px){

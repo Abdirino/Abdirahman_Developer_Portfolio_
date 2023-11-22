@@ -5,7 +5,7 @@ import Background from "../../Components/Background/Background";
 import TextAnimation from "../../Components/TextAnimation/TextAnimation";
 import { Partytown } from "@builder.io/partytown/react";
 
-import FlexiDrive from "../../Assets/Images/FlexiDrive.png.png"
+import FlexiDrive from "../../Assets/Images/FlexiDrive.png.png";
 
 const Portfolio = () => {
   const sentence4 = "Projects".split("");
@@ -27,10 +27,48 @@ const Portfolio = () => {
             <div className="project-img">
               <img src={FlexiDrive} alt="" />
             </div>
+            <div className="project-detail">
+              <h2>FlexiDrive (Car Rental Solution)</h2>
+              <p>Web Development</p>
+              <button className="button">
+                <span>View</span>
+              </button>
+            </div>
           </div>
           <div className="project">
             <div className="project-img">
               <img src={FlexiDrive} alt="" />
+            </div>
+            <div className="project-detail">
+              <h2>FlexiDrive (Car Rental Solution)</h2>
+              <p>Web Development</p>
+              <button className="button">
+                <span>View</span>
+              </button>
+            </div>
+          </div>
+          <div className="project">
+            <div className="project-img">
+              <img src={FlexiDrive} alt="" />
+            </div>
+            <div className="project-detail">
+              <h2>FlexiDrive (Car Rental Solution)</h2>
+              <p>Web Development</p>
+              <button className="button">
+                <span>View</span>
+              </button>
+            </div>
+          </div>
+          <div className="project">
+            <div className="project-img">
+              <img src={FlexiDrive} alt="" />
+            </div>
+            <div className="project-detail">
+              <h2>FlexiDrive (Car Rental Solution)</h2>
+              <p>Web Development</p>
+              <button className="button">
+                <span>View</span>
+              </button>
             </div>
           </div>
         </div>
