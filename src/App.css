@@ -66,14 +66,14 @@ h4 {
 }
 
 .button span:hover {
-  transition: all 0.4s;
+  transition: all 0.2s;
   transform: translate(0, 0.1em);
   box-shadow: 0 0 0 0 #b6fb41;
   color: #b6fb41;
 }
 
 .button span:active {
-  transition: all 0.4s;
+  transition: all 0.1s;
   transform: translate(0, 0.4em);
   box-shadow: 0 0 0 0 #b6fb41;
 }

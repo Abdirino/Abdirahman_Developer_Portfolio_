@@ -24,8 +24,8 @@
 .projects {
   padding: 4rem 2rem;
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 4rem;
+  grid-template-columns: auto auto;
+  gap: 2rem;
 }
 .project {
   cursor: pointer;

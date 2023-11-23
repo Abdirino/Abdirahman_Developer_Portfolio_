@@ -43,8 +43,7 @@ const Home = () => {
               })}
             </h1>
             <p>
-              Full-Stack Developer with a strong background in UI/UX Design,
-              JavaScript, React, Next.js, Node.js, MongoDB, and Git.
+              Software Engineer, Full-Stack & UI/UX Designer,
             </p>
             <button className="button">
               <span>RESUME</span>
