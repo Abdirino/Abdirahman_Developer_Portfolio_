@@ -15,7 +15,7 @@
     text-align: center;
 }
 .h-Services h1{
-    font-size: 69px;
+    font-size: 74px;
     padding-top: 17px;
     color: #b6fb41;
 }
@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0 4rem 0;
+    padding: 1rem 0 3rem 0;
     gap: 3rem;
     width: 100%;
 }

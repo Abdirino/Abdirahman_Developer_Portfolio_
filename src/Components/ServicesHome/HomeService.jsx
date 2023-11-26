@@ -13,7 +13,7 @@ const HService = () => {
             return <TextAnimation key={index}>{letter}</TextAnimation>;
           })} {sentence2.map((letter, index) => {
             return <TextAnimation key={index}>{letter}</TextAnimation>;
-          })}🧑‍💻</h1>
+          })}</h1>
         <div className="h-services">
           <div className="h-service">
             <i class="fa-solid fa-layer-group"></i>
