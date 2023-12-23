@@ -28,7 +28,7 @@
 }
 .skill-detail h1 {
   font-size: 54px;
-  color: #b6fb41;
+  color: #71d78d;
 }
 .skill-detail p {
   color: white;
@@ -47,7 +47,7 @@
 .s-content {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  background: rgb(255, 255, 255);
+  background: rgb(235, 233, 233);
   border-radius: 4px;
   padding: 2rem 1rem;
   gap: 2rem;

@@ -27,7 +27,7 @@ h4 {
   width: 11px;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(162, 222, 59, 0.9);
+  background: #71d78d;
   border-radius: 1px;
 }
 ::-webkit-scrollbar-track {
@@ -61,21 +61,21 @@ h4 {
   font-weight: bold;
   letter-spacing: 0.6px;
   color: #ffffff;
-  border: 0.08em solid #b6fb41;
-  box-shadow: 0 0.4em 0.1em 0.019em #b6fb41;
+  border: 0.08em solid #71d78d;
+  box-shadow: 0 0.4em 0.1em 0.019em #71d78d;
 }
 
 .button span:hover {
   transition: all 0.2s;
   transform: translate(0, 0.1em);
-  box-shadow: 0 0 0 0 #b6fb41;
-  color: #b6fb41;
+  box-shadow: 0 0 0 0 #71d78d;
+  color: #71d78d;
 }
 
 .button span:active {
   transition: all 0.1s;
   transform: translate(0, 0.4em);
-  box-shadow: 0 0 0 0 #b6fb41;
+  box-shadow: 0 0 0 0 #71d78d;
 }
 
 .button span:not(:hover) {
@@ -107,8 +107,8 @@ h4 {
     font-size: 1.1em;
     font-weight: bold;
     color: #ffffff;
-    border: 0.04em solid #b6fb41;
-    box-shadow: 0 0.4em 0.1em 0.019em #b6fb41;
+    border: 0.04em solid #71d78d;
+    box-shadow: 0 0.4em 0.1em 0.019em #71d78d;
   }
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import ScrollToTop from "react-scroll-to-top";
 
-import FooterIMG from "../../Assets/Images/A-Footer.png";
+import FooterIMG from "../../Components/Navbar/AR-ICON.png";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
       <ScrollToTop
         smooth
         top="21"
-        style={{ background: "#b7fb41c4", fontWeight: "bolder" }}
+        style={{ background: "#71d78d", fontWeight: "bolder" }}
       />
       <div className="line"></div>
       <div className="copy-write">
@@ -50,7 +50,7 @@ const Footer = () => {
           </a>
         </div>
         <p>
-          © 2023 <span> Abdirahman A. </span> Dev Portfolio Made with ❤️.
+          © 2024 <span> Abdirahman A. </span> Dev Portfolio Made with ❤️.
         </p>
       </div>
     </>

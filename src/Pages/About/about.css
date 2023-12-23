@@ -43,7 +43,7 @@
   padding-bottom: 1.4rem;
 }
 .a-detail h1 {
-  color: #b6fb41;
+  color: #71d78d;
   font-size: 42px;
 }
 .a-detail h1 span{
@@ -111,7 +111,7 @@
 }
 .ex-detail h2 {
   font-size: 40px;
-  color: #b6fb41;
+  color: #71d78d;
 }
 .ex-detail h3 {
   color: grey;
@@ -141,7 +141,7 @@
     font-size: 30px;
   }
   .a-detail h1 {
-    color: #b6fb41;
+    color: #71d78d;
     font-size: 32px;
     font-weight: lighter;
   }

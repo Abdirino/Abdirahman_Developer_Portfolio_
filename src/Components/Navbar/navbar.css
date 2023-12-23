@@ -36,7 +36,7 @@
 }
 .nav-icon {
   font-size: 29px;
-  color: #b6fb41;
+  color: #71d78d !important;
   display: none;
   cursor: pointer;
 }
@@ -46,18 +46,21 @@
 .nav-items {
   display: flex;
   align-items: center;
-  gap: 1.4rem;
+  gap: 10px;
 }
 
 .nav-links {
-  font-size: 14px !important;
+  font-size: 15.5px !important;
+  padding: 11px 8px;
 }
 .nav-links:hover {
-  color: #b6fb41 !important;
+  color: #71d78d !important;
 }
 
 .nav-links.active {
-  color: #b6fb41 !important;
+  color: #71d78d !important;
+  background: rgba(113, 215, 140, 0.1);
+  border-radius: 4px;
 }
 
 

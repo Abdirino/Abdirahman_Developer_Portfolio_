@@ -17,7 +17,7 @@
 .h-Services h1{
     font-size: 74px;
     padding-top: 17px;
-    color: #b6fb41;
+    color: #71d78d;
 }
 
 .h-services{
@@ -43,6 +43,7 @@
 }
 .h-service i{
     font-size: 49px;
+    color: #71d78d;
 }
 .h-service h2{
     font-size: 39px;

@@ -35,7 +35,7 @@
 }
 .h-detail h1 {
   font-size: 69px;
-  color: #d6fb41;
+  color: #71d78d;
   /* cursor: pointer; */
 }
 .h-detail p {
@@ -44,7 +44,7 @@
   padding: 1rem 0;
 }
 .h-detail p span{
-  color: #b6fb41;
+  color: #71d78d;
 }
 .h-detail .button {
   width: fit-content !important;
@@ -75,7 +75,7 @@
   font-size: 25px;
 }
 .proj-link h1 span {
-  color: #b6fb41;
+  color: #71d78d;
   cursor: pointer;
 }
 .proj-link h1 span:hover {

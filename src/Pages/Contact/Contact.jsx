@@ -26,7 +26,7 @@ const Contact = () => {
           <div className="form">
             <h1>Get In Touch</h1>
             <p>
-              Contact me for freelance or collaboration.
+              Contact me for freelance or collaboration 📞.
             </p>
             <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
               <div className="row">

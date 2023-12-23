@@ -4,9 +4,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Background from "../../Components/Background/Background";
 import TextAnimation from "../../Components/TextAnimation/TextAnimation";
 import { Partytown } from "@builder.io/partytown/react";
-
-import FlexiDrive from "../../Assets/Images/FlexiDrive.png.png";
-import IAffordable from "../../Assets/Images/IAffordable.png";
+import Footer from "../../Components/Footer/Footer";
 
 const Portfolio = () => {
   const sentence4 = "Projects".split("");
@@ -25,55 +23,11 @@ const Portfolio = () => {
         <p>Selected Past Projects I've Undertaken</p>
         <div className="projects">
           <div className="project">
-            <div className="project-img">
-              <img src={FlexiDrive} alt="" />
-            </div>
-            <div className="project-detail">
-              <h2>FlexiDrive (Car Rental Solution)</h2>
-              <p>Web Development</p>
-              <button className="button">
-                <span>View</span>
-              </button>
-            </div>
-          </div>
-          <div className="project">
-            <div className="project-img">
-              <img src={IAffordable} alt="" />
-            </div>
-            <div className="project-detail">
-              <h2>IAffordableNet ( ISP )</h2>
-              <p>Web Development</p>
-              <button className="button">
-                <span>View</span>
-              </button>
-            </div>
-          </div>
-          <div className="project">
-            <div className="project-img">
-              <img src={IAffordable} alt="" />
-            </div>
-            <div className="project-detail">
-              <h2>IAffordableNet ( ISP )</h2>
-              <p>Web Development</p>
-              <button className="button">
-                <span>View</span>
-              </button>
-            </div>
-          </div>
-          <div className="project">
-            <div className="project-img">
-              <img src={FlexiDrive} alt="" />
-            </div>
-            <div className="project-detail">
-              <h2>FlexiDrive (Car Rental Solution)</h2>
-              <p>Web Development</p>
-              <button className="button">
-                <span>View</span>
-              </button>
-            </div>
+            
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

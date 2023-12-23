@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 
-import NavIcon from "../../Assets/Images/A-Footer.png";
+import NavIcon from "./AR-ICON.png";
 import { Link, NavLink } from "react-router-dom";
 import TextAnimation from "../TextAnimation/TextAnimation";
 
@@ -11,10 +11,10 @@ const Navbar = () => {
   const handleClick = () => {
     setClick(!click);
   };
-  const sentence = "//Home".split("");
-  const sentence2 = "//About".split("");
-  const sentence3 = "//Portfolio".split("");
-  const sentence4 = "//Contact".split("");
+  const sentence = "Home".split("");
+  const sentence2 = "About".split("");
+  const sentence3 = "Portfolio".split("");
+  const sentence4 = "Contact".split("");
   // const close = () => { setClick(false) };
 
   return (
