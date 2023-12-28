@@ -24,7 +24,7 @@ const Contact = () => {
       <div className="Contacts">
         <div className="contact">
           <div className="form">
-            <h1>Get In Touch</h1>
+            <h1>Let's <span>Connect</span>.</h1>
             <p>
               Contact me for freelance or collaboration 📞.
             </p>

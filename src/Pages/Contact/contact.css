@@ -30,6 +30,9 @@
   font-size: 35px;
   padding: 6px 0;
 }
+.form h1 span{
+  color: #71d78d !important;
+}
 .form p {
   font-size: 17px;
   padding: 6px 0;
