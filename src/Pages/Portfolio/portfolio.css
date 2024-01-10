@@ -25,9 +25,9 @@
   padding: 2rem 10px;
 }
 .project {
-  padding: 3rem 0;
+  padding: 6rem 0;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .reverse{
@@ -41,35 +41,38 @@
 }
 
 .card {
-  width: 650px;
-  height: 370px;
+  width: 700px;
+  height: 400px;
   background-image: url(../../Assets/Images/IAffordable.png);
   background-position: center;
   background-size: cover;
   border-radius: 8px;
-  /* box-shadow: 0px 0px 9px #e8e8e860; */
+  box-shadow: 0px 0px 9px #e8e8e860;
   position: relative;
   transform-style: preserve-3d;
   will-change: transform;
   transition: transform 0.5s;
-  transform: translateZ(40px) rotateX(10deg) rotateY(-10deg);
+  transform: translateZ(40px) rotateX(15deg) rotateY(-15deg);
 }
 .card2 {
-  width: 650px;
-  height: 370px;
+  width: 700px;
+  height: 400px;
   background-image: url(../../Assets/Images/FlexiDrive.png);
   background-position: center;
   background-size: cover;
   border-radius: 8px;
-  /* box-shadow: 0px 0px 9px #d6d6d66d; */
+  box-shadow: 0px 0px 9px #e1e0e06d;
   position: relative;
   transform-style: preserve-3d;
   will-change: transform;
   transition: transform 0.5s;
-  transform: translateZ(40px) rotateX(10deg) rotateY(10deg);
+  transform: translateZ(40px) rotateX(15deg) rotateY(15deg);
 }
 
-/* .project:hover  {
+/* .project:hover .card{
+  transform: translateZ(80px) rotateX(10deg) rotateY(0deg);
+}
+.project:hover .card2{
   transform: translateZ(80px) rotateX(10deg) rotateY(0deg);
 } */
 
@@ -84,7 +87,7 @@
 .project-description h2 {
   color: #71d78d;
   font-size: 2.9rem;
-  padding-bottom: 21px;
+  padding-bottom: 14px;
 }
 .project-description p {
   font-size: 17px;
