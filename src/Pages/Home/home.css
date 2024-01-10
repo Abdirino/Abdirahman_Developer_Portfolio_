@@ -103,22 +103,6 @@
   color: rgb(155, 155, 155);
   font-size: 18px;
 }
-.social {
-  padding: 1rem 0;
-  display: flex;
-  gap: 1.1rem;
-}
-.social i {
-  font-size: 35px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-.social a{
-  color: inherit; text-decoration: inherit;
-}
-.social a i:hover {
-  transform: scale(1.17);
-}
 
 @media (max-width: 1170px) {
   .home {

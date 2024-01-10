@@ -13,7 +13,7 @@ import { Partytown } from "@builder.io/partytown/react";
 const About = () => {
   return (
     <>
-      <Partytown debug={true} forward={['dataLayer.push']} />
+      <Partytown debug={true} forward={["dataLayer.push"]} />
       <Navbar />
       <Background home="Home" section="About" />
       <div className="About">
@@ -22,20 +22,18 @@ const About = () => {
             <h3>|| About Me</h3>
             <h1>I'm a highly skilled Full-Stack</h1>
             <h1>Developer with over 2 years</h1>
-            <h1>of professional experience<span>.</span></h1>
+            <h1>
+              of professional experience<span>.</span>
+            </h1>
             <p>
               My goal is to deliver exceptional experiences that meet both
               client needs and industry expectations, ensuring your projects are
               not only successful but also ahead of the curve.
             </p>
             <div className="about-links">
-              <button className="button">
-                <span>RESUME</span>
-              </button>
+              <button className="button">RESUME</button>
               <Link to="/portfolio">
-                <button className="button">
-                  <span>PORTFOLIO</span>
-                </button>
+                <button className="button">PORTFOLIO</button>
               </Link>
             </div>
           </div>

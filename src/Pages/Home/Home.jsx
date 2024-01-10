@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <>
-      <Partytown debug={true} forward={['dataLayer.push']} />
+      <Partytown debug={true} forward={["dataLayer.push"]} />
       <Navbar />
       <div className="Home">
         <div className="home">
@@ -26,7 +26,8 @@ const Home = () => {
             <h1 className="h1">
               {sentence2.map((letter, index) => {
                 return <TextAnimation key={index}>{letter}</TextAnimation>;
-              })} {sentence6.map((letter, index) => {
+              })}{" "}
+              {sentence6.map((letter, index) => {
                 return <TextAnimation key={index}>{letter}</TextAnimation>;
               })}
               👋,
@@ -43,11 +44,10 @@ const Home = () => {
               })}
             </h1>
             <p>
-              Software Engineer, Full-Stack Developer & UI/UX Designer<span>.</span>
+              Software Engineer, Full-Stack Developer & UI/UX Designer
+              <span>.</span>
             </p>
-            <button className="button">
-              <span>RESUME</span>
-            </button>
+            <button className="button">RESUME</button>
           </div>
           <div className="h-links">
             <div className="proj-link">

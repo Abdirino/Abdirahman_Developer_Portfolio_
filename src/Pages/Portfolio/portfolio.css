@@ -22,12 +22,17 @@
   font-size: 21px;
 }
 .projects {
-  padding: 2rem 0;
+  padding: 2rem 10px;
 }
 .project {
   padding: 3rem 0;
   display: flex;
   gap: 2rem;
+}
+
+.reverse{
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .project-image {
@@ -42,12 +47,26 @@
   background-position: center;
   background-size: cover;
   border-radius: 8px;
-  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.55);
+  /* box-shadow: 0px 0px 9px #e8e8e860; */
   position: relative;
   transform-style: preserve-3d;
   will-change: transform;
   transition: transform 0.5s;
-  transform: translateZ(40px) rotateX(14deg) rotateY(-14deg);
+  transform: translateZ(40px) rotateX(10deg) rotateY(-10deg);
+}
+.card2 {
+  width: 650px;
+  height: 370px;
+  background-image: url(../../Assets/Images/FlexiDrive.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  /* box-shadow: 0px 0px 9px #d6d6d66d; */
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.5s;
+  transform: translateZ(40px) rotateX(10deg) rotateY(10deg);
 }
 
 /* .project:hover  {
@@ -73,6 +92,10 @@
 }
 .project-description .button {
   margin: 2rem 0;
+  width: fit-content;
+}
+.project-description .button a{
+  color: inherit;
 }
 
 @media (max-width: 690px) {

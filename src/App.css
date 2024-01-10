@@ -16,7 +16,9 @@ h4 {
   font-family: "Overpass", sans-serif;
   letter-spacing: 2px;
 }
-.App p, ul, li span {
+.App p,
+ul,
+li span {
   font-family: "Geologica", sans-serif;
   letter-spacing: 1.7px;
   font-weight: bold;
@@ -37,82 +39,66 @@ h4 {
 
 /* Button CSS */
 .button {
-  padding: 0.1em 0.25em;
-  width: 13em;
-  height: 4.2em;
-  background-color: #212121;
-  border: 0.08em solid #ffffff;
-  border-radius: 0.3em;
-  font-size: 10px;
+  padding: 0.7em 1.4em;
+  border: 2px solid #71d78d;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: "Geologica", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: #71d78d;
   cursor: pointer;
 }
 
-.button span {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 0.4em;
-  width: 8.25em;
-  height: 2.5em;
-  background-color: #212121;
-  border-radius: 0.2em;
-  font-size: 1.5em;
-  font-weight: bold;
-  letter-spacing: 0.6px;
-  color: #ffffff;
-  border: 0.08em solid #71d78d;
-  box-shadow: 0 0.4em 0.1em 0.019em #71d78d;
+.button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #71d78d;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
 }
 
-.button span:hover {
-  transition: all 0.2s;
-  transform: translate(0, 0.1em);
-  box-shadow: 0 0 0 0 #71d78d;
-  color: #71d78d;
+.button:hover::before {
+  width: 105%;
 }
 
-.button span:active {
-  transition: all 0.1s;
-  transform: translate(0, 0.4em);
-  box-shadow: 0 0 0 0 #71d78d;
-}
-
-.button span:not(:hover) {
-  transition: all 0.3s;
-}
-
-@media (max-width: 570px){
-  .button {
-    padding: 0.1em;
-    width: 8em;
-    height: 3.5em;
-    background-color: #212121;
-    border: 0.04em solid #ffffff;
-    border-radius: 0.3em;
-    font-size: 8px;
-    cursor: pointer;
-  }
-  
-  .button span {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0.2em;
-    width: 6.4em;
-    height: 2.1em;
-    background-color: #212121;
-    border-radius: 0.2em;
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #ffffff;
-    border: 0.04em solid #71d78d;
-    box-shadow: 0 0.4em 0.1em 0.019em #71d78d;
-  }
+.button:hover {
+  color: #111;
 }
 
 /* Button CSS*/
+
+/* Social Links */
+.social {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1.1rem;
+}
+.social i {
+  font-size: 35px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.social a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.social a i:hover {
+  transform: scale(1.17);
+}
 
 .nav-links {
   color: inherit !important;
