@@ -23,7 +23,28 @@ const Portfolio = () => {
         <p>Selected Past Projects I've Undertaken</p>
         <div className="projects">
           <div className="project">
-            
+            <div className="project-image">
+              <div className="card"></div>
+            </div>
+
+            <div className="project-description">
+              <h2>Service Provider</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+                sunt dolor magnam ipsam nostrum officiis perferendis harum
+                eveniet similique.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+                sunt dolor magnam ipsam nostrum officiis perferendis harum
+                eveniet similique.
+              </p>
+              <button className="button">
+                <a href="https://iaffordablenetsp.co.ke/" target="_blank" rel="noreferrer">
+                  <span>VISIT</span>
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
