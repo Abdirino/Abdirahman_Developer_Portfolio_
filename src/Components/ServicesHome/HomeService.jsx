@@ -42,13 +42,12 @@ const HService = () => {
 
           <div className="h-service">
             <i class="fa-solid fa-layer-group"></i>
-            <h2>UI/UX Design</h2>
+            <h2>Application Development</h2>
             <ul>
-              <li>Wireframing</li>
-              <li>Figma Design</li>
-              <li>Responsive Design</li>
-              <li>User Research</li>
-              <li>Colors and Typography</li>
+              <li>React Native</li>
+              <li>Android</li>
+              <li>IOS</li>
+              <li>User Interface</li>
             </ul>
           </div>
         </div>

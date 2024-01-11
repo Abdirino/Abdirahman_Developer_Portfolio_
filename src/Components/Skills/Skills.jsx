@@ -6,7 +6,6 @@ import redux from "../../Assets/Images/icons8-redux-48.png";
 import framer from "../../Assets/Images/framer.png.png";
 import next from "../../Assets/Images/nextjs.1024x1024.png";
 import figma from "../../Assets/Images/icons8-figma-48.png";
-import firebase from "../../Assets/Images/icons8-firebase-48.png";
 import typeScript from "../../Assets/Images/icons8-typescript-48.png";
 import jest from "../../Assets/Images/icons8-jest-can-collect-code-coverage-information-from-entire-projects-32.png";
 import express from "../../Assets/Images/icons8-express-js-50.png";
@@ -15,7 +14,8 @@ import git from "../../Assets/Images/icons8-git-48.png";
 import github from "../../Assets/Images/icons8-github-48.png";
 import vite from "../../Assets/Images/icons8-vite-48.png";
 import SQL from "../../Assets/Images/icons8-mysql-48.png";
-import stripe from "../../Assets/Images/icons8-stripe-94.png";
+import ReactNative from "../../Assets/Images/React Native.png";
+import Docker from "../../Assets/Images/icons8-docker-96.png";
 
 import { Link } from "react-router-dom";
 import TextAnimation from "../TextAnimation/TextAnimation";
@@ -70,14 +70,14 @@ const Skills = () => {
               <img src={redux} alt="" />
               <img src={framer} alt="" />
               <img src={next} alt="" />
-              <img src={firebase} alt="" />
+              <img src={ReactNative} alt="" />
               <i class="fa-brands fa-node" style={{ color: "#098b30" }}></i>
               <img src={express} alt="" />
               <img src={mongo} alt="" />
               <img src={SQL} alt="" />
               <img src={git} alt="" />
               <img src={github} alt="" />
-              <img src={stripe} alt="" />
+              <img src={Docker} alt="" />
             </div>
           </div>
         </div>

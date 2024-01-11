@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import TextAnimation from "../../Components/TextAnimation/TextAnimation";
 import { Partytown } from "@builder.io/partytown/react";
 
+// import video from "../../Assets/Video/Video.mp4"
+
 const Home = () => {
   const sentence = "Abdirahman".split("");
   const sentence2 = "Hey".split("");
@@ -20,6 +22,9 @@ const Home = () => {
     <>
       <Partytown debug={true} forward={["dataLayer.push"]} />
       <Navbar />
+      {/* <video className="videoTag" autoPlay loop muted>
+        <source src={video} type="video/mp4" className="video" />
+      </video> */}
       <div className="Home">
         <div className="home">
           <div className="h-detail">
@@ -44,7 +49,7 @@ const Home = () => {
               })}
             </h1>
             <p>
-              Software Engineer, Full-Stack Developer & UI/UX Designer
+              Software Engineer, Full-Stack & App Developer
               <span>.</span>
             </p>
             <button className="button">RESUME</button>
