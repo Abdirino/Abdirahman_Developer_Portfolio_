@@ -49,7 +49,7 @@ const Home = () => {
               })}
             </h1>
             <p>
-              Software Engineer, Full-Stack & App Developer
+              Software Engineer, Full-Stack & Application Developer
               <span>.</span>
             </p>
             <button className="button">RESUME</button>
