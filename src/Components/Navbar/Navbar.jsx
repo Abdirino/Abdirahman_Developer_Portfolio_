@@ -97,7 +97,7 @@ const Navbar = () => {
           <div className="right">
             <Link to="/contact">
               <button className="button">
-                <span>LETS TEAM UP</span>
+                <span>CONTACT ME</span>
               </button>
             </Link>
           </div>

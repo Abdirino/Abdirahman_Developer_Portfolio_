@@ -52,6 +52,7 @@
 .nav-links {
   font-size: 15.5px !important;
   padding: 11px 8px;
+  font-weight: bold;
 }
 .nav-links:hover {
   color: #71d78d !important;

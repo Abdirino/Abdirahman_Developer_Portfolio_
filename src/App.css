@@ -21,7 +21,7 @@ ul,
 li span {
   font-family: "Geologica", sans-serif;
   letter-spacing: 1.7px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 /* Scrollbar css */
@@ -39,7 +39,7 @@ li span {
 
 /* Button CSS */
 .button {
-  padding: 0.7em 1.4em;
+  padding: 0.6em 1.1em;
   border: 2px solid #71d78d;
   border-radius: 2px;
   position: relative;
@@ -47,7 +47,7 @@ li span {
   background-color: transparent;
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 17px;
   transition: 0.3s;
   z-index: 1;
   font-family: "Geologica", sans-serif;
@@ -64,7 +64,7 @@ li span {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(25deg);
   background: #71d78d;
   transition: 0.5s ease;
   display: block;
@@ -72,7 +72,7 @@ li span {
 }
 
 .button:hover::before {
-  width: 75%;
+  width: 125%;
 }
 
 .button:hover {
